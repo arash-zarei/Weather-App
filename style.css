@@ -26,10 +26,8 @@ body {
 /* current info */
 
 .container .current-info{
-    width: 15rem;
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 .data-container{
@@ -55,7 +53,7 @@ body {
 /* others */
 
 .current-info .others{
-    width: 100%;
+    width: 21%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,4 +74,17 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.3rem;
+}
+
+/* place container */
+
+.place-container .country{
+    font-size: 2.3rem;
+    font-weight: 100;
+    color: #cccaca;
+}
+
+.place-container .time-zone{
+    color: #cccaca;
+    text-align: right;
 }
