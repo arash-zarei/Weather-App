@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url('image/bg.jpg') no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+
+
+/* current info */
+
+.container .current-info{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.data-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.time{
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.time .am-pm{
+    font-size: 1.3rem;
+    margin-left: .4rem;
+}
+
+.date{
+    font-size: 1.7rem;
+}
+
+/* others */
+
+.current-info .others{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    opacity: .6;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 0.3rem 0.9rem;
+    border: 2px solid #fff;
+    margin-top: 1rem;
+}
+
+.others .weather-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+}
